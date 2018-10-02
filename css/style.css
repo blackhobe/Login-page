@@ -1,0 +1,83 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(../images/bg.jpg);
+	background-size: cover;
+	height: 400px;
+	width: 100%;
+
+}
+
+.loginbox{
+	width: 330px;
+	height: 300px;
+	background-color: rgba(0,0,0,.5);
+	padding: 80px 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.user{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	top: calc(-100px/2);
+	left: calc(50% - 50px);
+
+}
+
+h2{
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.loginbox p{
+	margin: 0;
+	padding: 0;
+	color: #fff
+}
+
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+
+.loginbox input[type="text"],
+.loginbox input[type="Passward"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+::placeholder{
+	color: lightgrey;
+	font-size: 12px;
+
+}
+
+.loginbox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+	background: #ff267a;
+	border-radius: 20px;
+}
+.loginbox a{
+	font-size: 16px;
+	color: white;
+}
